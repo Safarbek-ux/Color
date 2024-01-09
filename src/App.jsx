@@ -12,7 +12,7 @@ const App = () => {
   return (
     <div className="w-full h-screen flex flex-col gap-5 items-center justify-center  px-4">
       <div
-        className="w-full h-full max-w-80 max-h-80 bg-black"
+        className="w-full h-full max-w-80 max-h-80 rounded-xl"
         style={{ backgroundColor: `rgb(${red}, ${green}, ${blue})` }}
       ></div>
       <div className="flex items-center gap-3 flex-wrap justify-center">
